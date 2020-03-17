@@ -1,0 +1,2 @@
+# NutritionalCalculator
+ llevar un control sobre las calorías vitaminas minerales etc que consume una persona.Api rest que sirve para gestionar información referente a los nutrientes presentes en los alimentos. Los usuarios autenticados mediante tokens pueden registrar la cantidad y el tipo de alimentos consumidos a lo largo del día. Los consumidores del servicio tendrán los datos necesarios para crear informes y
