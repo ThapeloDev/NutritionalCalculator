@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Usuarios\\a-e-m\\Escritorio\\NutritionalCalculator\\NutritionalCalculator\\NutritionalCalculator.csproj": {}
+  },
+  "projects": {
+    "D:\\Usuarios\\a-e-m\\Escritorio\\NutritionalCalculator\\NutritionalCalculator.Model\\NutritionalCalculator.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Usuarios\\a-e-m\\Escritorio\\NutritionalCalculator\\NutritionalCalculator.Model\\NutritionalCalculator.Model.csproj",
+        "projectName": "NutritionalCalculator.Model",
+        "projectPath": "D:\\Usuarios\\a-e-m\\Escritorio\\NutritionalCalculator\\NutritionalCalculator.Model\\NutritionalCalculator.Model.csproj",
+        "packagesPath": "C:\\Users\\a-e-m\\.nuget\\packages\\",
+        "outputPath": "D:\\Usuarios\\a-e-m\\Escritorio\\NutritionalCalculator\\NutritionalCalculator.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\a-e-m\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Usuarios\\a-e-m\\Escritorio\\NutritionalCalculator\\NutritionalCalculator\\NutritionalCalculator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Usuarios\\a-e-m\\Escritorio\\NutritionalCalculator\\NutritionalCalculator\\NutritionalCalculator.csproj",
+        "projectName": "NutritionalCalculator",
+        "projectPath": "D:\\Usuarios\\a-e-m\\Escritorio\\NutritionalCalculator\\NutritionalCalculator\\NutritionalCalculator.csproj",
+        "packagesPath": "C:\\Users\\a-e-m\\.nuget\\packages\\",
+        "outputPath": "D:\\Usuarios\\a-e-m\\Escritorio\\NutritionalCalculator\\NutritionalCalculator\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\a-e-m\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Usuarios\\a-e-m\\Escritorio\\NutritionalCalculator\\NutritionalCalculator.Model\\NutritionalCalculator.Model.csproj": {
+                "projectPath": "D:\\Usuarios\\a-e-m\\Escritorio\\NutritionalCalculator\\NutritionalCalculator.Model\\NutritionalCalculator.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
